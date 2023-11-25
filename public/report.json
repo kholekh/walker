@@ -1,0 +1,2259 @@
+{
+  "statement": {
+    "$": {
+      "period-start": "2023-10-01",
+      "period-end": "2023-10-31",
+      "generated-on": "2023-11-03T09:30:13",
+      "institution-id": "POB",
+      "dist-email": "mail@arbitas.com",
+      "fname-prefix": "20231031_SOM1003000_3108_",
+      "xmlns": "http://firstdata.sk/tol/posman/statement/1.0"
+    },
+    "merchants": [
+      {
+        "merchant": [
+          {
+            "IDs": [
+              {
+                "primaryID": [
+                  "SOM1003000"
+                ]
+              }
+            ],
+            "name": [
+              "Obec Gajary"
+            ],
+            "merchantNationalID": [
+              "00304743"
+            ],
+            "address": [
+              {
+                "$": {
+                  "type": "residence"
+                },
+                "line1": [
+                  "Obec Gajary"
+                ],
+                "line2": [
+                  "Obec Gajary"
+                ],
+                "street": [
+                  "Hlavná 67/105"
+                ],
+                "city": [
+                  "Gajary"
+                ],
+                "zip": [
+                  "90061"
+                ],
+                "country": [
+                  "SK"
+                ]
+              }
+            ],
+            "branches": [
+              {
+                "branch": [
+                  {
+                    "IDs": [
+                      {
+                        "primaryID": [
+                          "SOB1003001"
+                        ]
+                      }
+                    ],
+                    "name": [
+                      "Arbipoint_001 Gajary_obec"
+                    ],
+                    "addresses": [
+                      {
+                        "address": [
+                          {
+                            "$": {
+                              "type": "residence"
+                            },
+                            "line1": [
+                              "Arbipoint_001 obec Gajary"
+                            ],
+                            "line2": [
+                              "Arbipoint_001 obec Gajary"
+                            ],
+                            "street": [
+                              "Hlavná 67/105"
+                            ],
+                            "city": [
+                              "Gajary"
+                            ],
+                            "zip": [
+                              "90061"
+                            ],
+                            "country": [
+                              "SK"
+                            ]
+                          },
+                          {
+                            "$": {
+                              "type": "statements"
+                            },
+                            "line1": [
+                              "Arbipoint_001 obec Gajary"
+                            ],
+                            "line2": [
+                              "Arbipoint_001 obec Gajary"
+                            ],
+                            "street": [
+                              "Hlavná 67/105"
+                            ],
+                            "city": [
+                              "Gajary"
+                            ],
+                            "zip": [
+                              "90061"
+                            ],
+                            "country": [
+                              "SK"
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "terminals": [
+                      {
+                        "terminal": [
+                          {
+                            "IDs": [
+                              {
+                                "primaryID": [
+                                  "SO100003"
+                                ]
+                              }
+                            ],
+                            "timMerchantId": [
+                              "0"
+                            ],
+                            "name": [
+                              "Arbipoint_001 obec Gajary"
+                            ],
+                            "accounts": [
+                              {
+                                "account": [
+                                  {
+                                    "accountID": [
+                                      "SK8856000000003214307001"
+                                    ],
+                                    "bankID": [
+                                      "5600"
+                                    ],
+                                    "accountCurr": [
+                                      "EUR"
+                                    ]
+                                  }
+                                ]
+                              }
+                            ],
+                            "account": [
+                              {
+                                "accountID": [
+                                  "SK8856000000003214307001"
+                                ],
+                                "bankID": [
+                                  "5600"
+                                ]
+                              }
+                            ],
+                            "currency": [
+                              "EUR"
+                            ],
+                            "ecommFee": [
+                              "0"
+                            ],
+                            "ecommDiscount": [
+                              "0"
+                            ],
+                            "transactions": [
+                              {
+                                "reportingDay": [
+                                  {
+                                    "$": {
+                                      "day": "2023-10-02"
+                                    },
+                                    "transaction": [
+                                      {
+                                        "CARD": [
+                                          "MasterCard Debit Card"
+                                        ],
+                                        "REG": [
+                                          "DOMESTIC"
+                                        ],
+                                        "DTOPEA": [
+                                          "2023-10-02T14:24:28"
+                                        ],
+                                        "NUISOM": [
+                                          "516762******1153"
+                                        ],
+                                        "MTTDVO": [
+                                          "2.00"
+                                        ],
+                                        "MTDCVO": [
+                                          "1.96"
+                                        ],
+                                        "CESMT": [
+                                          "1"
+                                        ],
+                                        "FEEACC": [
+                                          "-0.04"
+                                        ],
+                                        "DETYP": [
+                                          "1"
+                                        ],
+                                        "TXCIP": [
+                                          "2.00"
+                                        ],
+                                        "NUAUTO": [
+                                          "251869"
+                                        ],
+                                        "RRN": [
+                                          "327512206117"
+                                        ],
+                                        "CEDEVO": [
+                                          "EUR"
+                                        ],
+                                        "MTDADD": [
+                                          "0.00"
+                                        ],
+                                        "MTPURC": [
+                                          "2.00"
+                                        ],
+                                        "MTDVCB": [
+                                          "1.96"
+                                        ],
+                                        "VSYMB": [
+                                          "00000593"
+                                        ],
+                                        "IFDESC": [
+                                          "0.0000%"
+                                        ],
+                                        "IFAMT": [
+                                          "0.0000"
+                                        ],
+                                        "AFDESC": [
+                                          "3.2500%"
+                                        ],
+                                        "AFAMT": [
+                                          "0.0650"
+                                        ],
+                                        "SFDESC": [
+                                          "0,0000 EUR"
+                                        ],
+                                        "SFAMT": [
+                                          "0.0250"
+                                        ],
+                                        "IFAMTSIGN": [
+                                          "1"
+                                        ],
+                                        "AFAMTSIGN": [
+                                          "1"
+                                        ],
+                                        "SFAMTSIGN": [
+                                          "1"
+                                        ]
+                                      },
+                                      {
+                                        "CARD": [
+                                          "MasterCard Debit Card"
+                                        ],
+                                        "REG": [
+                                          "DOMESTIC"
+                                        ],
+                                        "DTOPEA": [
+                                          "2023-10-02T14:24:28"
+                                        ],
+                                        "NUISOM": [
+                                          "516762******1153"
+                                        ],
+                                        "MTTDVO": [
+                                          "2.00"
+                                        ],
+                                        "MTDCVO": [
+                                          "1.96"
+                                        ],
+                                        "CESMT": [
+                                          "1"
+                                        ],
+                                        "FEEACC": [
+                                          "-0.04"
+                                        ],
+                                        "DETYP": [
+                                          "1"
+                                        ],
+                                        "TXCIP": [
+                                          "2.00"
+                                        ],
+                                        "NUAUTO": [
+                                          "251869"
+                                        ],
+                                        "RRN": [
+                                          "327512206117"
+                                        ],
+                                        "CEDEVO": [
+                                          "EUR"
+                                        ],
+                                        "MTDADD": [
+                                          "0.00"
+                                        ],
+                                        "MTPURC": [
+                                          "2.00"
+                                        ],
+                                        "MTDVCB": [
+                                          "1.96"
+                                        ],
+                                        "VSYMB": [
+                                          "00000593"
+                                        ],
+                                        "IFDESC": [
+                                          "0.0000%"
+                                        ],
+                                        "IFAMT": [
+                                          "0.0000"
+                                        ],
+                                        "AFDESC": [
+                                          "3.2500%"
+                                        ],
+                                        "AFAMT": [
+                                          "0.0650"
+                                        ],
+                                        "SFDESC": [
+                                          "0,0000 EUR"
+                                        ],
+                                        "SFAMT": [
+                                          "0.0250"
+                                        ],
+                                        "IFAMTSIGN": [
+                                          "1"
+                                        ],
+                                        "AFAMTSIGN": [
+                                          "1"
+                                        ],
+                                        "SFAMTSIGN": [
+                                          "1"
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "$": {
+                                      "day": "2023-10-03"
+                                    },
+                                    "transaction": [
+                                      {
+                                        "CARD": [
+                                          "Visa Debit Card"
+                                        ],
+                                        "REG": [
+                                          "DOMESTIC"
+                                        ],
+                                        "DTOPEA": [
+                                          "2023-10-03T11:18:52"
+                                        ],
+                                        "NUISOM": [
+                                          "440577******6491"
+                                        ],
+                                        "MTTDVO": [
+                                          "2.00"
+                                        ],
+                                        "MTDCVO": [
+                                          "1.96"
+                                        ],
+                                        "CESMT": [
+                                          "1"
+                                        ],
+                                        "FEEACC": [
+                                          "-0.04"
+                                        ],
+                                        "DETYP": [
+                                          "1"
+                                        ],
+                                        "TXCIP": [
+                                          "2.00"
+                                        ],
+                                        "NUAUTO": [
+                                          "879786"
+                                        ],
+                                        "RRN": [
+                                          "327609050826"
+                                        ],
+                                        "CEDEVO": [
+                                          "EUR"
+                                        ],
+                                        "MTDADD": [
+                                          "0.00"
+                                        ],
+                                        "MTPURC": [
+                                          "2.00"
+                                        ],
+                                        "MTDVCB": [
+                                          "1.96"
+                                        ],
+                                        "VSYMB": [
+                                          "00000594"
+                                        ],
+                                        "IFDESC": [
+                                          "0.0000 EUR + 0.2000%"
+                                        ],
+                                        "IFAMT": [
+                                          "0.0040"
+                                        ],
+                                        "AFDESC": [
+                                          "2.8900%"
+                                        ],
+                                        "AFAMT": [
+                                          "0.0578"
+                                        ],
+                                        "SFDESC": [
+                                          "0,0000 EUR"
+                                        ],
+                                        "SFAMT": [
+                                          "0.0138"
+                                        ],
+                                        "IFAMTSIGN": [
+                                          "1"
+                                        ],
+                                        "AFAMTSIGN": [
+                                          "1"
+                                        ],
+                                        "SFAMTSIGN": [
+                                          "1"
+                                        ],
+                                        "items": [
+                                          {
+                                            "item": [
+                                              {
+                                                "title": [
+                                                  "Poloska 1"
+                                                ],
+                                                "code": [
+                                                  "1002"
+                                                ],
+                                                "amount": [
+                                                  "2.34"
+                                                ],
+                                                "client_full_name": [
+                                                  "Jhon Doe"
+                                                ]
+                                              },
+                                              {
+                                                "title": [
+                                                  "Poloska 2"
+                                                ],
+                                                "code": [
+                                                  "1003"
+                                                ],
+                                                "amount": [
+                                                  "3.45"
+                                                ],
+                                                "client_full_name": [
+                                                  ""
+                                                ]
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "CARD": [
+                                          "Visa Debit Card"
+                                        ],
+                                        "REG": [
+                                          "DOMESTIC"
+                                        ],
+                                        "DTOPEA": [
+                                          "2023-10-13T11:03:54"
+                                        ],
+                                        "NUISOM": [
+                                          "440577******5439"
+                                        ],
+                                        "MTTDVO": [
+                                          "2.00"
+                                        ],
+                                        "MTDCVO": [
+                                          "1.96"
+                                        ],
+                                        "CESMT": [
+                                          "1"
+                                        ],
+                                        "FEEACC": [
+                                          "-0.04"
+                                        ],
+                                        "DETYP": [
+                                          "1"
+                                        ],
+                                        "TXCIP": [
+                                          "2.00"
+                                        ],
+                                        "NUAUTO": [
+                                          "244571"
+                                        ],
+                                        "RRN": [
+                                          "328609392870"
+                                        ],
+                                        "CEDEVO": [
+                                          "EUR"
+                                        ],
+                                        "MTDADD": [
+                                          "0.00"
+                                        ],
+                                        "MTPURC": [
+                                          "2.00"
+                                        ],
+                                        "MTDVCB": [
+                                          "1.96"
+                                        ],
+                                        "VSYMB": [
+                                          "00000602"
+                                        ],
+                                        "IFDESC": [
+                                          "0.0000 EUR + 0.2000%"
+                                        ],
+                                        "IFAMT": [
+                                          "0.0040"
+                                        ],
+                                        "AFDESC": [
+                                          "2.8900%"
+                                        ],
+                                        "AFAMT": [
+                                          "0.0578"
+                                        ],
+                                        "SFDESC": [
+                                          "0,0000 EUR"
+                                        ],
+                                        "SFAMT": [
+                                          "0.0138"
+                                        ],
+                                        "IFAMTSIGN": [
+                                          "1"
+                                        ],
+                                        "AFAMTSIGN": [
+                                          "1"
+                                        ],
+                                        "SFAMTSIGN": [
+                                          "1"
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "$": {
+                                      "day": "2023-10-13"
+                                    },
+                                    "transaction": [
+                                      {
+                                        "CARD": [
+                                          "Visa Debit Card"
+                                        ],
+                                        "REG": [
+                                          "DOMESTIC"
+                                        ],
+                                        "DTOPEA": [
+                                          "2023-10-13T11:03:54"
+                                        ],
+                                        "NUISOM": [
+                                          "440577******5439"
+                                        ],
+                                        "MTTDVO": [
+                                          "2.00"
+                                        ],
+                                        "MTDCVO": [
+                                          "1.96"
+                                        ],
+                                        "CESMT": [
+                                          "1"
+                                        ],
+                                        "FEEACC": [
+                                          "-0.04"
+                                        ],
+                                        "DETYP": [
+                                          "1"
+                                        ],
+                                        "TXCIP": [
+                                          "2.00"
+                                        ],
+                                        "NUAUTO": [
+                                          "244571"
+                                        ],
+                                        "RRN": [
+                                          "328609392870"
+                                        ],
+                                        "CEDEVO": [
+                                          "EUR"
+                                        ],
+                                        "MTDADD": [
+                                          "0.00"
+                                        ],
+                                        "MTPURC": [
+                                          "2.00"
+                                        ],
+                                        "MTDVCB": [
+                                          "1.96"
+                                        ],
+                                        "VSYMB": [
+                                          "00000602"
+                                        ],
+                                        "IFDESC": [
+                                          "0.0000 EUR + 0.2000%"
+                                        ],
+                                        "IFAMT": [
+                                          "0.0040"
+                                        ],
+                                        "AFDESC": [
+                                          "2.8900%"
+                                        ],
+                                        "AFAMT": [
+                                          "0.0578"
+                                        ],
+                                        "SFDESC": [
+                                          "0,0000 EUR"
+                                        ],
+                                        "SFAMT": [
+                                          "0.0138"
+                                        ],
+                                        "IFAMTSIGN": [
+                                          "1"
+                                        ],
+                                        "AFAMTSIGN": [
+                                          "1"
+                                        ],
+                                        "SFAMTSIGN": [
+                                          "1"
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "$": {
+                                      "day": "2023-10-18"
+                                    },
+                                    "transaction": [
+                                      {
+                                        "CARD": [
+                                          "Visa Debit Card"
+                                        ],
+                                        "REG": [
+                                          "DOMESTIC"
+                                        ],
+                                        "DTOPEA": [
+                                          "2023-10-18T15:55:57"
+                                        ],
+                                        "NUISOM": [
+                                          "454412******2872"
+                                        ],
+                                        "MTTDVO": [
+                                          "2.00"
+                                        ],
+                                        "MTDCVO": [
+                                          "1.96"
+                                        ],
+                                        "CESMT": [
+                                          "1"
+                                        ],
+                                        "FEEACC": [
+                                          "-0.04"
+                                        ],
+                                        "DETYP": [
+                                          "1"
+                                        ],
+                                        "TXCIP": [
+                                          "2.00"
+                                        ],
+                                        "NUAUTO": [
+                                          "021932"
+                                        ],
+                                        "RRN": [
+                                          "329113715651"
+                                        ],
+                                        "CEDEVO": [
+                                          "EUR"
+                                        ],
+                                        "MTDADD": [
+                                          "0.00"
+                                        ],
+                                        "MTPURC": [
+                                          "2.00"
+                                        ],
+                                        "MTDVCB": [
+                                          "1.96"
+                                        ],
+                                        "VSYMB": [
+                                          "00000603"
+                                        ],
+                                        "IFDESC": [
+                                          "0.0000 EUR + 0.2000%"
+                                        ],
+                                        "IFAMT": [
+                                          "0.0040"
+                                        ],
+                                        "AFDESC": [
+                                          "2.8900%"
+                                        ],
+                                        "AFAMT": [
+                                          "0.0578"
+                                        ],
+                                        "SFDESC": [
+                                          "0,0000 EUR"
+                                        ],
+                                        "SFAMT": [
+                                          "0.0138"
+                                        ],
+                                        "IFAMTSIGN": [
+                                          "1"
+                                        ],
+                                        "AFAMTSIGN": [
+                                          "1"
+                                        ],
+                                        "SFAMTSIGN": [
+                                          "1"
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "IDs": [
+                              {
+                                "primaryID": [
+                                  "SO100003"
+                                ]
+                              }
+                            ],
+                            "timMerchantId": [
+                              "0"
+                            ],
+                            "name": [
+                              "Arbipoint_001 obec Gajary"
+                            ],
+                            "accounts": [
+                              {
+                                "account": [
+                                  {
+                                    "accountID": [
+                                      "SK8856000000003214307001"
+                                    ],
+                                    "bankID": [
+                                      "5600"
+                                    ],
+                                    "accountCurr": [
+                                      "EUR"
+                                    ]
+                                  }
+                                ]
+                              }
+                            ],
+                            "account": [
+                              {
+                                "accountID": [
+                                  "SK8856000000003214307001"
+                                ],
+                                "bankID": [
+                                  "5600"
+                                ]
+                              }
+                            ],
+                            "currency": [
+                              "EUR"
+                            ],
+                            "ecommFee": [
+                              "0"
+                            ],
+                            "ecommDiscount": [
+                              "0"
+                            ],
+                            "transactions": [
+                              {
+                                "reportingDay": [
+                                  {
+                                    "$": {
+                                      "day": "2023-10-02"
+                                    },
+                                    "transaction": [
+                                      {
+                                        "CARD": [
+                                          "MasterCard Debit Card"
+                                        ],
+                                        "REG": [
+                                          "DOMESTIC"
+                                        ],
+                                        "DTOPEA": [
+                                          "2023-10-02T14:24:28"
+                                        ],
+                                        "NUISOM": [
+                                          "516762******1153"
+                                        ],
+                                        "MTTDVO": [
+                                          "2.00"
+                                        ],
+                                        "MTDCVO": [
+                                          "1.96"
+                                        ],
+                                        "CESMT": [
+                                          "1"
+                                        ],
+                                        "FEEACC": [
+                                          "-0.04"
+                                        ],
+                                        "DETYP": [
+                                          "1"
+                                        ],
+                                        "TXCIP": [
+                                          "2.00"
+                                        ],
+                                        "NUAUTO": [
+                                          "251869"
+                                        ],
+                                        "RRN": [
+                                          "327512206117"
+                                        ],
+                                        "CEDEVO": [
+                                          "EUR"
+                                        ],
+                                        "MTDADD": [
+                                          "0.00"
+                                        ],
+                                        "MTPURC": [
+                                          "2.00"
+                                        ],
+                                        "MTDVCB": [
+                                          "1.96"
+                                        ],
+                                        "VSYMB": [
+                                          "00000593"
+                                        ],
+                                        "IFDESC": [
+                                          "0.0000%"
+                                        ],
+                                        "IFAMT": [
+                                          "0.0000"
+                                        ],
+                                        "AFDESC": [
+                                          "3.2500%"
+                                        ],
+                                        "AFAMT": [
+                                          "0.0650"
+                                        ],
+                                        "SFDESC": [
+                                          "0,0000 EUR"
+                                        ],
+                                        "SFAMT": [
+                                          "0.0250"
+                                        ],
+                                        "IFAMTSIGN": [
+                                          "1"
+                                        ],
+                                        "AFAMTSIGN": [
+                                          "1"
+                                        ],
+                                        "SFAMTSIGN": [
+                                          "1"
+                                        ]
+                                      },
+                                      {
+                                        "CARD": [
+                                          "MasterCard Debit Card"
+                                        ],
+                                        "REG": [
+                                          "DOMESTIC"
+                                        ],
+                                        "DTOPEA": [
+                                          "2023-10-02T14:24:28"
+                                        ],
+                                        "NUISOM": [
+                                          "516762******1153"
+                                        ],
+                                        "MTTDVO": [
+                                          "2.00"
+                                        ],
+                                        "MTDCVO": [
+                                          "1.96"
+                                        ],
+                                        "CESMT": [
+                                          "1"
+                                        ],
+                                        "FEEACC": [
+                                          "-0.04"
+                                        ],
+                                        "DETYP": [
+                                          "1"
+                                        ],
+                                        "TXCIP": [
+                                          "2.00"
+                                        ],
+                                        "NUAUTO": [
+                                          "251869"
+                                        ],
+                                        "RRN": [
+                                          "327512206117"
+                                        ],
+                                        "CEDEVO": [
+                                          "EUR"
+                                        ],
+                                        "MTDADD": [
+                                          "0.00"
+                                        ],
+                                        "MTPURC": [
+                                          "2.00"
+                                        ],
+                                        "MTDVCB": [
+                                          "1.96"
+                                        ],
+                                        "VSYMB": [
+                                          "00000593"
+                                        ],
+                                        "IFDESC": [
+                                          "0.0000%"
+                                        ],
+                                        "IFAMT": [
+                                          "0.0000"
+                                        ],
+                                        "AFDESC": [
+                                          "3.2500%"
+                                        ],
+                                        "AFAMT": [
+                                          "0.0650"
+                                        ],
+                                        "SFDESC": [
+                                          "0,0000 EUR"
+                                        ],
+                                        "SFAMT": [
+                                          "0.0250"
+                                        ],
+                                        "IFAMTSIGN": [
+                                          "1"
+                                        ],
+                                        "AFAMTSIGN": [
+                                          "1"
+                                        ],
+                                        "SFAMTSIGN": [
+                                          "1"
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "$": {
+                                      "day": "2023-10-03"
+                                    },
+                                    "transaction": [
+                                      {
+                                        "CARD": [
+                                          "Visa Debit Card"
+                                        ],
+                                        "REG": [
+                                          "DOMESTIC"
+                                        ],
+                                        "DTOPEA": [
+                                          "2023-10-03T11:18:52"
+                                        ],
+                                        "NUISOM": [
+                                          "440577******6491"
+                                        ],
+                                        "MTTDVO": [
+                                          "2.00"
+                                        ],
+                                        "MTDCVO": [
+                                          "1.96"
+                                        ],
+                                        "CESMT": [
+                                          "1"
+                                        ],
+                                        "FEEACC": [
+                                          "-0.04"
+                                        ],
+                                        "DETYP": [
+                                          "1"
+                                        ],
+                                        "TXCIP": [
+                                          "2.00"
+                                        ],
+                                        "NUAUTO": [
+                                          "879786"
+                                        ],
+                                        "RRN": [
+                                          "327609050826"
+                                        ],
+                                        "CEDEVO": [
+                                          "EUR"
+                                        ],
+                                        "MTDADD": [
+                                          "0.00"
+                                        ],
+                                        "MTPURC": [
+                                          "2.00"
+                                        ],
+                                        "MTDVCB": [
+                                          "1.96"
+                                        ],
+                                        "VSYMB": [
+                                          "00000594"
+                                        ],
+                                        "IFDESC": [
+                                          "0.0000 EUR + 0.2000%"
+                                        ],
+                                        "IFAMT": [
+                                          "0.0040"
+                                        ],
+                                        "AFDESC": [
+                                          "2.8900%"
+                                        ],
+                                        "AFAMT": [
+                                          "0.0578"
+                                        ],
+                                        "SFDESC": [
+                                          "0,0000 EUR"
+                                        ],
+                                        "SFAMT": [
+                                          "0.0138"
+                                        ],
+                                        "IFAMTSIGN": [
+                                          "1"
+                                        ],
+                                        "AFAMTSIGN": [
+                                          "1"
+                                        ],
+                                        "SFAMTSIGN": [
+                                          "1"
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "$": {
+                                      "day": "2023-10-13"
+                                    },
+                                    "transaction": [
+                                      {
+                                        "CARD": [
+                                          "Visa Debit Card"
+                                        ],
+                                        "REG": [
+                                          "DOMESTIC"
+                                        ],
+                                        "DTOPEA": [
+                                          "2023-10-13T11:03:54"
+                                        ],
+                                        "NUISOM": [
+                                          "440577******5439"
+                                        ],
+                                        "MTTDVO": [
+                                          "2.00"
+                                        ],
+                                        "MTDCVO": [
+                                          "1.96"
+                                        ],
+                                        "CESMT": [
+                                          "1"
+                                        ],
+                                        "FEEACC": [
+                                          "-0.04"
+                                        ],
+                                        "DETYP": [
+                                          "1"
+                                        ],
+                                        "TXCIP": [
+                                          "2.00"
+                                        ],
+                                        "NUAUTO": [
+                                          "244571"
+                                        ],
+                                        "RRN": [
+                                          "328609392870"
+                                        ],
+                                        "CEDEVO": [
+                                          "EUR"
+                                        ],
+                                        "MTDADD": [
+                                          "0.00"
+                                        ],
+                                        "MTPURC": [
+                                          "2.00"
+                                        ],
+                                        "MTDVCB": [
+                                          "1.96"
+                                        ],
+                                        "VSYMB": [
+                                          "00000602"
+                                        ],
+                                        "IFDESC": [
+                                          "0.0000 EUR + 0.2000%"
+                                        ],
+                                        "IFAMT": [
+                                          "0.0040"
+                                        ],
+                                        "AFDESC": [
+                                          "2.8900%"
+                                        ],
+                                        "AFAMT": [
+                                          "0.0578"
+                                        ],
+                                        "SFDESC": [
+                                          "0,0000 EUR"
+                                        ],
+                                        "SFAMT": [
+                                          "0.0138"
+                                        ],
+                                        "IFAMTSIGN": [
+                                          "1"
+                                        ],
+                                        "AFAMTSIGN": [
+                                          "1"
+                                        ],
+                                        "SFAMTSIGN": [
+                                          "1"
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "$": {
+                                      "day": "2023-10-18"
+                                    },
+                                    "transaction": [
+                                      {
+                                        "CARD": [
+                                          "Visa Debit Card"
+                                        ],
+                                        "REG": [
+                                          "DOMESTIC"
+                                        ],
+                                        "DTOPEA": [
+                                          "2023-10-18T15:55:57"
+                                        ],
+                                        "NUISOM": [
+                                          "454412******2872"
+                                        ],
+                                        "MTTDVO": [
+                                          "2.00"
+                                        ],
+                                        "MTDCVO": [
+                                          "1.96"
+                                        ],
+                                        "CESMT": [
+                                          "1"
+                                        ],
+                                        "FEEACC": [
+                                          "-0.04"
+                                        ],
+                                        "DETYP": [
+                                          "1"
+                                        ],
+                                        "TXCIP": [
+                                          "2.00"
+                                        ],
+                                        "NUAUTO": [
+                                          "021932"
+                                        ],
+                                        "RRN": [
+                                          "329113715651"
+                                        ],
+                                        "CEDEVO": [
+                                          "EUR"
+                                        ],
+                                        "MTDADD": [
+                                          "0.00"
+                                        ],
+                                        "MTPURC": [
+                                          "2.00"
+                                        ],
+                                        "MTDVCB": [
+                                          "1.96"
+                                        ],
+                                        "VSYMB": [
+                                          "00000603"
+                                        ],
+                                        "IFDESC": [
+                                          "0.0000 EUR + 0.2000%"
+                                        ],
+                                        "IFAMT": [
+                                          "0.0040"
+                                        ],
+                                        "AFDESC": [
+                                          "2.8900%"
+                                        ],
+                                        "AFAMT": [
+                                          "0.0578"
+                                        ],
+                                        "SFDESC": [
+                                          "0,0000 EUR"
+                                        ],
+                                        "SFAMT": [
+                                          "0.0138"
+                                        ],
+                                        "IFAMTSIGN": [
+                                          "1"
+                                        ],
+                                        "AFAMTSIGN": [
+                                          "1"
+                                        ],
+                                        "SFAMTSIGN": [
+                                          "1"
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "IDs": [
+                      {
+                        "primaryID": [
+                          "SOB1003002"
+                        ]
+                      }
+                    ],
+                    "name": [
+                      "Arbipoint_001 Gajary_obec"
+                    ],
+                    "addresses": [
+                      {
+                        "address": [
+                          {
+                            "$": {
+                              "type": "residence"
+                            },
+                            "line1": [
+                              "Arbipoint_001 obec Gajary"
+                            ],
+                            "line2": [
+                              "Arbipoint_001 obec Gajary"
+                            ],
+                            "street": [
+                              "Hlavná 67/105"
+                            ],
+                            "city": [
+                              "Gajary"
+                            ],
+                            "zip": [
+                              "90061"
+                            ],
+                            "country": [
+                              "SK"
+                            ]
+                          },
+                          {
+                            "$": {
+                              "type": "statements"
+                            },
+                            "line1": [
+                              "Arbipoint_001 obec Gajary"
+                            ],
+                            "line2": [
+                              "Arbipoint_001 obec Gajary"
+                            ],
+                            "street": [
+                              "Hlavná 67/105"
+                            ],
+                            "city": [
+                              "Gajary"
+                            ],
+                            "zip": [
+                              "90061"
+                            ],
+                            "country": [
+                              "SK"
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "terminals": [
+                      {
+                        "terminal": [
+                          {
+                            "IDs": [
+                              {
+                                "primaryID": [
+                                  "SO100003"
+                                ]
+                              }
+                            ],
+                            "timMerchantId": [
+                              "0"
+                            ],
+                            "name": [
+                              "Arbipoint_001 obec Gajary"
+                            ],
+                            "accounts": [
+                              {
+                                "account": [
+                                  {
+                                    "accountID": [
+                                      "SK8856000000003214307001"
+                                    ],
+                                    "bankID": [
+                                      "5600"
+                                    ],
+                                    "accountCurr": [
+                                      "EUR"
+                                    ]
+                                  }
+                                ]
+                              }
+                            ],
+                            "account": [
+                              {
+                                "accountID": [
+                                  "SK8856000000003214307001"
+                                ],
+                                "bankID": [
+                                  "5600"
+                                ]
+                              }
+                            ],
+                            "currency": [
+                              "EUR"
+                            ],
+                            "ecommFee": [
+                              "0"
+                            ],
+                            "ecommDiscount": [
+                              "0"
+                            ],
+                            "transactions": [
+                              {
+                                "reportingDay": [
+                                  {
+                                    "$": {
+                                      "day": "2023-10-02"
+                                    },
+                                    "transaction": [
+                                      {
+                                        "CARD": [
+                                          "MasterCard Debit Card"
+                                        ],
+                                        "REG": [
+                                          "DOMESTIC"
+                                        ],
+                                        "DTOPEA": [
+                                          "2023-10-02T14:24:28"
+                                        ],
+                                        "NUISOM": [
+                                          "516762******1153"
+                                        ],
+                                        "MTTDVO": [
+                                          "2.00"
+                                        ],
+                                        "MTDCVO": [
+                                          "1.96"
+                                        ],
+                                        "CESMT": [
+                                          "1"
+                                        ],
+                                        "FEEACC": [
+                                          "-0.04"
+                                        ],
+                                        "DETYP": [
+                                          "1"
+                                        ],
+                                        "TXCIP": [
+                                          "2.00"
+                                        ],
+                                        "NUAUTO": [
+                                          "251869"
+                                        ],
+                                        "RRN": [
+                                          "327512206117"
+                                        ],
+                                        "CEDEVO": [
+                                          "EUR"
+                                        ],
+                                        "MTDADD": [
+                                          "0.00"
+                                        ],
+                                        "MTPURC": [
+                                          "2.00"
+                                        ],
+                                        "MTDVCB": [
+                                          "1.96"
+                                        ],
+                                        "VSYMB": [
+                                          "00000593"
+                                        ],
+                                        "IFDESC": [
+                                          "0.0000%"
+                                        ],
+                                        "IFAMT": [
+                                          "0.0000"
+                                        ],
+                                        "AFDESC": [
+                                          "3.2500%"
+                                        ],
+                                        "AFAMT": [
+                                          "0.0650"
+                                        ],
+                                        "SFDESC": [
+                                          "0,0000 EUR"
+                                        ],
+                                        "SFAMT": [
+                                          "0.0250"
+                                        ],
+                                        "IFAMTSIGN": [
+                                          "1"
+                                        ],
+                                        "AFAMTSIGN": [
+                                          "1"
+                                        ],
+                                        "SFAMTSIGN": [
+                                          "1"
+                                        ]
+                                      },
+                                      {
+                                        "CARD": [
+                                          "MasterCard Debit Card"
+                                        ],
+                                        "REG": [
+                                          "DOMESTIC"
+                                        ],
+                                        "DTOPEA": [
+                                          "2023-10-02T14:24:28"
+                                        ],
+                                        "NUISOM": [
+                                          "516762******1153"
+                                        ],
+                                        "MTTDVO": [
+                                          "2.00"
+                                        ],
+                                        "MTDCVO": [
+                                          "1.96"
+                                        ],
+                                        "CESMT": [
+                                          "1"
+                                        ],
+                                        "FEEACC": [
+                                          "-0.04"
+                                        ],
+                                        "DETYP": [
+                                          "1"
+                                        ],
+                                        "TXCIP": [
+                                          "2.00"
+                                        ],
+                                        "NUAUTO": [
+                                          "251869"
+                                        ],
+                                        "RRN": [
+                                          "327512206117"
+                                        ],
+                                        "CEDEVO": [
+                                          "EUR"
+                                        ],
+                                        "MTDADD": [
+                                          "0.00"
+                                        ],
+                                        "MTPURC": [
+                                          "2.00"
+                                        ],
+                                        "MTDVCB": [
+                                          "1.96"
+                                        ],
+                                        "VSYMB": [
+                                          "00000593"
+                                        ],
+                                        "IFDESC": [
+                                          "0.0000%"
+                                        ],
+                                        "IFAMT": [
+                                          "0.0000"
+                                        ],
+                                        "AFDESC": [
+                                          "3.2500%"
+                                        ],
+                                        "AFAMT": [
+                                          "0.0650"
+                                        ],
+                                        "SFDESC": [
+                                          "0,0000 EUR"
+                                        ],
+                                        "SFAMT": [
+                                          "0.0250"
+                                        ],
+                                        "IFAMTSIGN": [
+                                          "1"
+                                        ],
+                                        "AFAMTSIGN": [
+                                          "1"
+                                        ],
+                                        "SFAMTSIGN": [
+                                          "1"
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "$": {
+                                      "day": "2023-10-03"
+                                    },
+                                    "transaction": [
+                                      {
+                                        "CARD": [
+                                          "Visa Debit Card"
+                                        ],
+                                        "REG": [
+                                          "DOMESTIC"
+                                        ],
+                                        "DTOPEA": [
+                                          "2023-10-03T11:18:52"
+                                        ],
+                                        "NUISOM": [
+                                          "440577******6491"
+                                        ],
+                                        "MTTDVO": [
+                                          "2.00"
+                                        ],
+                                        "MTDCVO": [
+                                          "1.96"
+                                        ],
+                                        "CESMT": [
+                                          "1"
+                                        ],
+                                        "FEEACC": [
+                                          "-0.04"
+                                        ],
+                                        "DETYP": [
+                                          "1"
+                                        ],
+                                        "TXCIP": [
+                                          "2.00"
+                                        ],
+                                        "NUAUTO": [
+                                          "879786"
+                                        ],
+                                        "RRN": [
+                                          "327609050826"
+                                        ],
+                                        "CEDEVO": [
+                                          "EUR"
+                                        ],
+                                        "MTDADD": [
+                                          "0.00"
+                                        ],
+                                        "MTPURC": [
+                                          "2.00"
+                                        ],
+                                        "MTDVCB": [
+                                          "1.96"
+                                        ],
+                                        "VSYMB": [
+                                          "00000594"
+                                        ],
+                                        "IFDESC": [
+                                          "0.0000 EUR + 0.2000%"
+                                        ],
+                                        "IFAMT": [
+                                          "0.0040"
+                                        ],
+                                        "AFDESC": [
+                                          "2.8900%"
+                                        ],
+                                        "AFAMT": [
+                                          "0.0578"
+                                        ],
+                                        "SFDESC": [
+                                          "0,0000 EUR"
+                                        ],
+                                        "SFAMT": [
+                                          "0.0138"
+                                        ],
+                                        "IFAMTSIGN": [
+                                          "1"
+                                        ],
+                                        "AFAMTSIGN": [
+                                          "1"
+                                        ],
+                                        "SFAMTSIGN": [
+                                          "1"
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "$": {
+                                      "day": "2023-10-13"
+                                    },
+                                    "transaction": [
+                                      {
+                                        "CARD": [
+                                          "Visa Debit Card"
+                                        ],
+                                        "REG": [
+                                          "DOMESTIC"
+                                        ],
+                                        "DTOPEA": [
+                                          "2023-10-13T11:03:54"
+                                        ],
+                                        "NUISOM": [
+                                          "440577******5439"
+                                        ],
+                                        "MTTDVO": [
+                                          "2.00"
+                                        ],
+                                        "MTDCVO": [
+                                          "1.96"
+                                        ],
+                                        "CESMT": [
+                                          "1"
+                                        ],
+                                        "FEEACC": [
+                                          "-0.04"
+                                        ],
+                                        "DETYP": [
+                                          "1"
+                                        ],
+                                        "TXCIP": [
+                                          "2.00"
+                                        ],
+                                        "NUAUTO": [
+                                          "244571"
+                                        ],
+                                        "RRN": [
+                                          "328609392870"
+                                        ],
+                                        "CEDEVO": [
+                                          "EUR"
+                                        ],
+                                        "MTDADD": [
+                                          "0.00"
+                                        ],
+                                        "MTPURC": [
+                                          "2.00"
+                                        ],
+                                        "MTDVCB": [
+                                          "1.96"
+                                        ],
+                                        "VSYMB": [
+                                          "00000602"
+                                        ],
+                                        "IFDESC": [
+                                          "0.0000 EUR + 0.2000%"
+                                        ],
+                                        "IFAMT": [
+                                          "0.0040"
+                                        ],
+                                        "AFDESC": [
+                                          "2.8900%"
+                                        ],
+                                        "AFAMT": [
+                                          "0.0578"
+                                        ],
+                                        "SFDESC": [
+                                          "0,0000 EUR"
+                                        ],
+                                        "SFAMT": [
+                                          "0.0138"
+                                        ],
+                                        "IFAMTSIGN": [
+                                          "1"
+                                        ],
+                                        "AFAMTSIGN": [
+                                          "1"
+                                        ],
+                                        "SFAMTSIGN": [
+                                          "1"
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "$": {
+                                      "day": "2023-10-18"
+                                    },
+                                    "transaction": [
+                                      {
+                                        "CARD": [
+                                          "Visa Debit Card"
+                                        ],
+                                        "REG": [
+                                          "DOMESTIC"
+                                        ],
+                                        "DTOPEA": [
+                                          "2023-10-18T15:55:57"
+                                        ],
+                                        "NUISOM": [
+                                          "454412******2872"
+                                        ],
+                                        "MTTDVO": [
+                                          "2.00"
+                                        ],
+                                        "MTDCVO": [
+                                          "1.96"
+                                        ],
+                                        "CESMT": [
+                                          "1"
+                                        ],
+                                        "FEEACC": [
+                                          "-0.04"
+                                        ],
+                                        "DETYP": [
+                                          "1"
+                                        ],
+                                        "TXCIP": [
+                                          "2.00"
+                                        ],
+                                        "NUAUTO": [
+                                          "021932"
+                                        ],
+                                        "RRN": [
+                                          "329113715651"
+                                        ],
+                                        "CEDEVO": [
+                                          "EUR"
+                                        ],
+                                        "MTDADD": [
+                                          "0.00"
+                                        ],
+                                        "MTPURC": [
+                                          "2.00"
+                                        ],
+                                        "MTDVCB": [
+                                          "1.96"
+                                        ],
+                                        "VSYMB": [
+                                          "00000603"
+                                        ],
+                                        "IFDESC": [
+                                          "0.0000 EUR + 0.2000%"
+                                        ],
+                                        "IFAMT": [
+                                          "0.0040"
+                                        ],
+                                        "AFDESC": [
+                                          "2.8900%"
+                                        ],
+                                        "AFAMT": [
+                                          "0.0578"
+                                        ],
+                                        "SFDESC": [
+                                          "0,0000 EUR"
+                                        ],
+                                        "SFAMT": [
+                                          "0.0138"
+                                        ],
+                                        "IFAMTSIGN": [
+                                          "1"
+                                        ],
+                                        "AFAMTSIGN": [
+                                          "1"
+                                        ],
+                                        "SFAMTSIGN": [
+                                          "1"
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "IDs": [
+                              {
+                                "primaryID": [
+                                  "SO100003"
+                                ]
+                              }
+                            ],
+                            "timMerchantId": [
+                              "0"
+                            ],
+                            "name": [
+                              "Arbipoint_001 obec Gajary"
+                            ],
+                            "accounts": [
+                              {
+                                "account": [
+                                  {
+                                    "accountID": [
+                                      "SK8856000000003214307001"
+                                    ],
+                                    "bankID": [
+                                      "5600"
+                                    ],
+                                    "accountCurr": [
+                                      "EUR"
+                                    ]
+                                  }
+                                ]
+                              }
+                            ],
+                            "account": [
+                              {
+                                "accountID": [
+                                  "SK8856000000003214307001"
+                                ],
+                                "bankID": [
+                                  "5600"
+                                ]
+                              }
+                            ],
+                            "currency": [
+                              "EUR"
+                            ],
+                            "ecommFee": [
+                              "0"
+                            ],
+                            "ecommDiscount": [
+                              "0"
+                            ],
+                            "transactions": [
+                              {
+                                "reportingDay": [
+                                  {
+                                    "$": {
+                                      "day": "2023-10-02"
+                                    },
+                                    "transaction": [
+                                      {
+                                        "CARD": [
+                                          "MasterCard Debit Card"
+                                        ],
+                                        "REG": [
+                                          "DOMESTIC"
+                                        ],
+                                        "DTOPEA": [
+                                          "2023-10-02T14:24:28"
+                                        ],
+                                        "NUISOM": [
+                                          "516762******1153"
+                                        ],
+                                        "MTTDVO": [
+                                          "2.00"
+                                        ],
+                                        "MTDCVO": [
+                                          "1.96"
+                                        ],
+                                        "CESMT": [
+                                          "1"
+                                        ],
+                                        "FEEACC": [
+                                          "-0.04"
+                                        ],
+                                        "DETYP": [
+                                          "1"
+                                        ],
+                                        "TXCIP": [
+                                          "2.00"
+                                        ],
+                                        "NUAUTO": [
+                                          "251869"
+                                        ],
+                                        "RRN": [
+                                          "327512206117"
+                                        ],
+                                        "CEDEVO": [
+                                          "EUR"
+                                        ],
+                                        "MTDADD": [
+                                          "0.00"
+                                        ],
+                                        "MTPURC": [
+                                          "2.00"
+                                        ],
+                                        "MTDVCB": [
+                                          "1.96"
+                                        ],
+                                        "VSYMB": [
+                                          "00000593"
+                                        ],
+                                        "IFDESC": [
+                                          "0.0000%"
+                                        ],
+                                        "IFAMT": [
+                                          "0.0000"
+                                        ],
+                                        "AFDESC": [
+                                          "3.2500%"
+                                        ],
+                                        "AFAMT": [
+                                          "0.0650"
+                                        ],
+                                        "SFDESC": [
+                                          "0,0000 EUR"
+                                        ],
+                                        "SFAMT": [
+                                          "0.0250"
+                                        ],
+                                        "IFAMTSIGN": [
+                                          "1"
+                                        ],
+                                        "AFAMTSIGN": [
+                                          "1"
+                                        ],
+                                        "SFAMTSIGN": [
+                                          "1"
+                                        ]
+                                      },
+                                      {
+                                        "CARD": [
+                                          "MasterCard Debit Card"
+                                        ],
+                                        "REG": [
+                                          "DOMESTIC"
+                                        ],
+                                        "DTOPEA": [
+                                          "2023-10-02T14:24:28"
+                                        ],
+                                        "NUISOM": [
+                                          "516762******1153"
+                                        ],
+                                        "MTTDVO": [
+                                          "2.00"
+                                        ],
+                                        "MTDCVO": [
+                                          "1.96"
+                                        ],
+                                        "CESMT": [
+                                          "1"
+                                        ],
+                                        "FEEACC": [
+                                          "-0.04"
+                                        ],
+                                        "DETYP": [
+                                          "1"
+                                        ],
+                                        "TXCIP": [
+                                          "2.00"
+                                        ],
+                                        "NUAUTO": [
+                                          "251869"
+                                        ],
+                                        "RRN": [
+                                          "327512206117"
+                                        ],
+                                        "CEDEVO": [
+                                          "EUR"
+                                        ],
+                                        "MTDADD": [
+                                          "0.00"
+                                        ],
+                                        "MTPURC": [
+                                          "2.00"
+                                        ],
+                                        "MTDVCB": [
+                                          "1.96"
+                                        ],
+                                        "VSYMB": [
+                                          "00000593"
+                                        ],
+                                        "IFDESC": [
+                                          "0.0000%"
+                                        ],
+                                        "IFAMT": [
+                                          "0.0000"
+                                        ],
+                                        "AFDESC": [
+                                          "3.2500%"
+                                        ],
+                                        "AFAMT": [
+                                          "0.0650"
+                                        ],
+                                        "SFDESC": [
+                                          "0,0000 EUR"
+                                        ],
+                                        "SFAMT": [
+                                          "0.0250"
+                                        ],
+                                        "IFAMTSIGN": [
+                                          "1"
+                                        ],
+                                        "AFAMTSIGN": [
+                                          "1"
+                                        ],
+                                        "SFAMTSIGN": [
+                                          "1"
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "$": {
+                                      "day": "2023-10-03"
+                                    },
+                                    "transaction": [
+                                      {
+                                        "CARD": [
+                                          "Visa Debit Card"
+                                        ],
+                                        "REG": [
+                                          "DOMESTIC"
+                                        ],
+                                        "DTOPEA": [
+                                          "2023-10-03T11:18:52"
+                                        ],
+                                        "NUISOM": [
+                                          "440577******6491"
+                                        ],
+                                        "MTTDVO": [
+                                          "2.00"
+                                        ],
+                                        "MTDCVO": [
+                                          "1.96"
+                                        ],
+                                        "CESMT": [
+                                          "1"
+                                        ],
+                                        "FEEACC": [
+                                          "-0.04"
+                                        ],
+                                        "DETYP": [
+                                          "1"
+                                        ],
+                                        "TXCIP": [
+                                          "2.00"
+                                        ],
+                                        "NUAUTO": [
+                                          "879786"
+                                        ],
+                                        "RRN": [
+                                          "327609050826"
+                                        ],
+                                        "CEDEVO": [
+                                          "EUR"
+                                        ],
+                                        "MTDADD": [
+                                          "0.00"
+                                        ],
+                                        "MTPURC": [
+                                          "2.00"
+                                        ],
+                                        "MTDVCB": [
+                                          "1.96"
+                                        ],
+                                        "VSYMB": [
+                                          "00000594"
+                                        ],
+                                        "IFDESC": [
+                                          "0.0000 EUR + 0.2000%"
+                                        ],
+                                        "IFAMT": [
+                                          "0.0040"
+                                        ],
+                                        "AFDESC": [
+                                          "2.8900%"
+                                        ],
+                                        "AFAMT": [
+                                          "0.0578"
+                                        ],
+                                        "SFDESC": [
+                                          "0,0000 EUR"
+                                        ],
+                                        "SFAMT": [
+                                          "0.0138"
+                                        ],
+                                        "IFAMTSIGN": [
+                                          "1"
+                                        ],
+                                        "AFAMTSIGN": [
+                                          "1"
+                                        ],
+                                        "SFAMTSIGN": [
+                                          "1"
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "$": {
+                                      "day": "2023-10-13"
+                                    },
+                                    "transaction": [
+                                      {
+                                        "CARD": [
+                                          "Visa Debit Card"
+                                        ],
+                                        "REG": [
+                                          "DOMESTIC"
+                                        ],
+                                        "DTOPEA": [
+                                          "2023-10-13T11:03:54"
+                                        ],
+                                        "NUISOM": [
+                                          "440577******5439"
+                                        ],
+                                        "MTTDVO": [
+                                          "2.00"
+                                        ],
+                                        "MTDCVO": [
+                                          "1.96"
+                                        ],
+                                        "CESMT": [
+                                          "1"
+                                        ],
+                                        "FEEACC": [
+                                          "-0.04"
+                                        ],
+                                        "DETYP": [
+                                          "1"
+                                        ],
+                                        "TXCIP": [
+                                          "2.00"
+                                        ],
+                                        "NUAUTO": [
+                                          "244571"
+                                        ],
+                                        "RRN": [
+                                          "328609392870"
+                                        ],
+                                        "CEDEVO": [
+                                          "EUR"
+                                        ],
+                                        "MTDADD": [
+                                          "0.00"
+                                        ],
+                                        "MTPURC": [
+                                          "2.00"
+                                        ],
+                                        "MTDVCB": [
+                                          "1.96"
+                                        ],
+                                        "VSYMB": [
+                                          "00000602"
+                                        ],
+                                        "IFDESC": [
+                                          "0.0000 EUR + 0.2000%"
+                                        ],
+                                        "IFAMT": [
+                                          "0.0040"
+                                        ],
+                                        "AFDESC": [
+                                          "2.8900%"
+                                        ],
+                                        "AFAMT": [
+                                          "0.0578"
+                                        ],
+                                        "SFDESC": [
+                                          "0,0000 EUR"
+                                        ],
+                                        "SFAMT": [
+                                          "0.0138"
+                                        ],
+                                        "IFAMTSIGN": [
+                                          "1"
+                                        ],
+                                        "AFAMTSIGN": [
+                                          "1"
+                                        ],
+                                        "SFAMTSIGN": [
+                                          "1"
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "$": {
+                                      "day": "2023-10-18"
+                                    },
+                                    "transaction": [
+                                      {
+                                        "CARD": [
+                                          "Visa Debit Card"
+                                        ],
+                                        "REG": [
+                                          "DOMESTIC"
+                                        ],
+                                        "DTOPEA": [
+                                          "2023-10-18T15:55:57"
+                                        ],
+                                        "NUISOM": [
+                                          "454412******2872"
+                                        ],
+                                        "MTTDVO": [
+                                          "2.00"
+                                        ],
+                                        "MTDCVO": [
+                                          "1.96"
+                                        ],
+                                        "CESMT": [
+                                          "1"
+                                        ],
+                                        "FEEACC": [
+                                          "-0.04"
+                                        ],
+                                        "DETYP": [
+                                          "1"
+                                        ],
+                                        "TXCIP": [
+                                          "2.00"
+                                        ],
+                                        "NUAUTO": [
+                                          "021932"
+                                        ],
+                                        "RRN": [
+                                          "329113715651"
+                                        ],
+                                        "CEDEVO": [
+                                          "EUR"
+                                        ],
+                                        "MTDADD": [
+                                          "0.00"
+                                        ],
+                                        "MTPURC": [
+                                          "2.00"
+                                        ],
+                                        "MTDVCB": [
+                                          "1.96"
+                                        ],
+                                        "VSYMB": [
+                                          "00000603"
+                                        ],
+                                        "IFDESC": [
+                                          "0.0000 EUR + 0.2000%"
+                                        ],
+                                        "IFAMT": [
+                                          "0.0040"
+                                        ],
+                                        "AFDESC": [
+                                          "2.8900%"
+                                        ],
+                                        "AFAMT": [
+                                          "0.0578"
+                                        ],
+                                        "SFDESC": [
+                                          "0,0000 EUR"
+                                        ],
+                                        "SFAMT": [
+                                          "0.0138"
+                                        ],
+                                        "IFAMTSIGN": [
+                                          "1"
+                                        ],
+                                        "AFAMTSIGN": [
+                                          "1"
+                                        ],
+                                        "SFAMTSIGN": [
+                                          "1"
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

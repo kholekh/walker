@@ -1,0 +1,19 @@
+{
+  "name": "walker",
+  "version": "1.0.0",
+  "description": "walker of any object",
+  "scripts": {
+    "start": "tsc --declaration && node dist/main.js --native-error",
+    "start:dev": "nodemon --inspect src/main.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.9.0",
+    "nodemon": "^3.0.1",
+    "ts-node": "^10.9.1",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.2.2"
+  }
+}
