@@ -16,7 +16,7 @@ export const runHandlers = async (value: any, handlers: THandler[]) => {
   return _value;
 }
 
-const walker = async (obj: unknown, handlers?: IHandlers) => {
+export const walker = async (obj: unknown, handlers?: IHandlers) => {
   if (typeof obj !== 'object' || obj === null) return obj;
 
   await Promise.all(Object.entries(obj).map(async ([key, value]) => {
@@ -34,4 +34,21 @@ const walker = async (obj: unknown, handlers?: IHandlers) => {
   return obj;
 }
 
-export default walker;
+export const walkerV2 = async (obj: unknown, handlers?: IHandlers) => {
+  if (typeof obj !== 'object' || obj === null) return obj;
+
+  const entries = Object.entries(obj);
+  for (const [key, value] of entries) {
+    try {
+      const keyHandlers = handlers && typeof handlers === 'object' && handlers[key];
+      const _value = keyHandlers ? await runHandlers(value, keyHandlers) : value;
+
+      obj[key] = await walkerV2(_value, handlers);
+    } catch (error) {
+      console.error(error);
+      obj[key] = value;
+    }
+  }
+
+  return obj;
+}

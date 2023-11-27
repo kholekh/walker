@@ -1,5 +1,5 @@
 import { readFile } from "fs/promises";
-import walker, { THandler } from "./walker";
+import { walker, THandler, walkerV2 } from "./walker";
 
 const logger: THandler = (value) => {
   console.log(JSON.stringify(value, null, 2));
@@ -8,21 +8,22 @@ const logger: THandler = (value) => {
 
 interface IMerchant {
   readonly name: [string];
-  readonly branches: [{ branch: IBranch[]}];
+  readonly branches: [{ readonly branch: IBranch[]}];
 }
 
 interface IBranch {
   readonly name: [string];
-  readonly terminals: [{ terminal: ITerminal[] }];
+  readonly terminals: [{ readonly terminal: ITerminal[] }];
 }
 
 interface ITerminal {
+  readonly IDs: [{ readonly primaryID: [string] }];
   readonly name: [string];
-  readonly transactions: [{ reportingDay: IReportingDay[] }];
+  readonly transactions: [{ readonly reportingDay: IReportingDay[] }];
 }
 
 interface IReportingDay {
-  readonly $: {day: string};
+  readonly $: {readonly day: string};
   readonly transaction: ITransaction[];
 }
 
@@ -31,7 +32,7 @@ interface ITransaction {
   readonly "NUISOM": [string];
   readonly "DTOPEA": [string];
   readonly "VSYMB": [string];
-  readonly items?: [{ item: IItem[] }];
+  readonly items?: [{ readonly item: IItem[] }];
 }
 
 interface IItem {
@@ -62,11 +63,26 @@ interface IItem {
     return terminals;
   }
 
+  const handleName: THandler<[string]> = ([name]) => {
+    text.push(name);
+    return [name];
+  }
+
+  const handleTitle: THandler<[string]> = ([title]) => {
+    text.push(title);
+    return [title];
+  }
+
+  const handleVSYMB: THandler<[string]> = ([VSYMB]) => {
+    text.push(VSYMB);
+    return [VSYMB];
+  }
+
   const addItems: THandler<ITransaction[]> = async (transactions) => {
     try {
       return transactions.reduce((acc, cur) => {
         const [VSYMB] = cur.VSYMB;
-        const transaction: ITransaction = VSYMB === '00000603' ? { ...cur, items } : cur;
+        const transaction: ITransaction = VSYMB === '30000593' ? { ...cur, items } : cur;
         return [...acc, transaction];
       }, [] as ITransaction[]);
     } catch (error) {
@@ -79,9 +95,12 @@ interface IItem {
   const report = JSON.parse(await readFile(path + '/report.json', 'utf8'));
   const items = JSON.parse(await readFile(path + '/items.json', 'utf8'));
   const obj = await walker(report, {
-    'merchant': [handleMerchant],
-    'branch': [handleBranch],
-    'terminal': [handleTerminal],
+    'name': [handleName],
+    'title': [handleTitle],
+    'VSYMB': [handleVSYMB],
+    // 'merchant': [handleMerchant],
+    // 'branch': [handleBranch],
+    // 'terminal': [handleTerminal],
     'transaction': [addItems],
   });
 
